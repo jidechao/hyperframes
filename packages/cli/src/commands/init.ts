@@ -296,7 +296,7 @@ function patchVideoSrc(
 ): void {
   const htmlFiles = readdirSync(dir, { withFileTypes: true, recursive: true })
     .filter((e) => e.isFile() && e.name.endsWith(".html"))
-    .map((e) => join(e.parentPath ?? e.path, e.name));
+    .map((e) => join(e.parentPath, e.name));
 
   for (const file of htmlFiles) {
     let content = readFileSync(file, "utf-8");

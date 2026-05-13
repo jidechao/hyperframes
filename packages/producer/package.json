@@ -75,10 +75,10 @@
     "@fontsource/poppins": "^5.2.7",
     "@fontsource/roboto": "^5.2.10",
     "@fontsource/source-code-pro": "^5.2.7",
-    "@types/node": "^22.10.1",
+    "@types/node": "^25.0.10",
     "@webgpu/types": "^0.1.69",
-    "esbuild": "^0.27.2",
-    "tsx": "^4.7.0",
+    "esbuild": "^0.25.12",
+    "tsx": "^4.21.0",
     "typescript": "^5.7.2"
   },
   "engines": {
